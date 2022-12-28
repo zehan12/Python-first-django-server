@@ -1,4 +1,4 @@
 echo " BUILD START"
 pip install -r requirements.txt
-pip manage.py collectstatic  --noinput --clear
+python manage.py runserver                          
 echo " BUILD END"
